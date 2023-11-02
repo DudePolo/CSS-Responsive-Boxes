@@ -1,3 +1,84 @@
 body {
   background: papayawhip;
 }
+
+* {
+  border: 1px solid teal;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.a {
+  height: 10vh;
+  margin: 10px;
+}
+
+.b {
+  height: 40vh;
+  margin: 10px;
+  flex-grow: 2;
+}
+
+.cBreak {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15vh;
+  margin: 10px;
+}
+
+.c {
+  width: 20vw;
+}
+
+.d {
+  width: 20vw;
+}
+
+.e {
+  width: 20vw;
+}
+
+.f {
+  height: 10vh;
+  margin: 10px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .a {
+    width: 100%;
+    height: 20vh;
+  }
+  .b {
+    width: 100%;
+    flex-grow: revert;
+  }
+  .cBreak {
+    width: 100%;
+    height: 30vh;
+    margin: 10px;
+    justify-content: space-between;
+  }
+  .d {
+    margin-inline: 10px;
+  }
+  .cBreak2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+    width: 75vw;
+  }
+  .f{
+    width: 20vw;
+    height: 75vh;
+  }
+}
