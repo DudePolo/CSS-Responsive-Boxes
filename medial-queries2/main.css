@@ -73,10 +73,10 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     margin: 10px;
-    width: 75vw;
+    width: 75%;
   }
   .f{
-    width: 20vw;
+    width: 20%;
     height: 75vh;
   }
 }
