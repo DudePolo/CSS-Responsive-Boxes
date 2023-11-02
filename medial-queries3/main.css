@@ -22,42 +22,41 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 20vh;
-  margin: 10px;
+  height: 40vh;
 }
 
 .b {
-  width: 25vw;
+  width: 40vw;
   margin: 10px;
 }
 
 .c {
-  width: 25vw;
+  width: 40vw;
   margin: 10px;
 }
 
 .d {
-  width: 25vw;
+  width: 40vw;
   margin: 10px;
 }
 
 .e {
-  width: 25vw;
+  width: 40vw;
   margin: 10px;
 }
 
 .f {
-  width: 25vw;
+  width: 40vw;
   margin: 10px;
 }
 
 .g {
-  width: 25vw;
+  width: 40vw;
   margin: 10px;
 }
 
 .h {
-  height: 57vh;
+  height: 50vh;
   margin: 10px;
 }
 
@@ -77,7 +76,7 @@ body {
     justify-content: space-between;
     flex-direction: row;
     margin: 10px;
-    width: 75vw;
+    flex-basis: 70%;
     height: 75vh;
   }
   .b{
