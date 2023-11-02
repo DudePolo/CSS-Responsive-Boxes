@@ -26,32 +26,32 @@ body {
 }
 
 .b {
-  width: 40vw;
+  width: 25%;
   margin: 10px;
 }
 
 .c {
-  width: 40vw;
+  width: 25%;
   margin: 10px;
 }
 
 .d {
-  width: 40vw;
+  width: 25%;
   margin: 10px;
 }
 
 .e {
-  width: 40vw;
+  width: 25%;
   margin: 10px;
 }
 
 .f {
-  width: 40vw;
+  width: 25%;
   margin: 10px;
 }
 
 .g {
-  width: 40vw;
+  width: 25%;
   margin: 10px;
 }
 
@@ -98,7 +98,7 @@ body {
     width: 30%;
   }
   .h {
-    width: 20vw;
+    width: 22%;
     height: 75vh;
   }
 }
